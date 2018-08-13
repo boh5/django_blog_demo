@@ -1,0 +1,45 @@
+* {
+  color:#3e3e3e;
+}
+
+
+blockquote {
+    border-left: 10px solid rgba(128,128,128,0.075);
+    background-color: rgba(128,128,128,0.05);
+    padding: 13px 15px !important;
+    margin: 0;
+}
+
+blockquote p {
+  color: #898989;
+  margin: 0;
+}
+
+strong {
+    font-weight: normal;
+    color: #FD5B03;
+}
+
+ul, ol {
+  padding-left: 30px;
+}
+
+li {
+  line-height: 24px;
+}
+
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+table{border-collapse:collapse}
+table,table th,table td{border:1px solid #ddd}
+table th,table td{padding:6px 16px}
+table th{background-color:#eee}

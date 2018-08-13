@@ -1,0 +1,34 @@
+.dark-link {
+    color: #0f140f;
+}
+
+.margin-lr {
+    margin: 0 20px;
+}
+
+.sidebar a {
+    color: #212529;
+}
+
+.tutorial-list-card {
+    width: 18rem;
+    margin: 10px 50px;
+}
+
+.card {
+    margin-top: 24px;
+}
+
+
+:target:before {
+content:"";
+display:block;
+height:54px; /* fixed header height*/
+margin:-54px 0 0; /* negative fixed header height */
+}
+
+/*blog image max width*/
+.article img {
+    max-width: 100%;
+    padding: 1rem 0;
+}
